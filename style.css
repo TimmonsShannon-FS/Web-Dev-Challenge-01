@@ -1,0 +1,67 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --link: #4E80EE;
+   --bg: #f9fafc;
+   --font: "inter";
+   --divider: #e5e7eb;
+}
+
+body {
+   background: var(--bg);
+   font-family: var(--font);
+}
+
+.header {
+   text-align: center;
+   padding: 5rem;
+   background: #fff;
+}
+
+.title {
+   margin-bottom: 0.625rem;
+   font-size: 2.25rem;
+   font-weight: 600;
+}
+
+a {
+   color: var(--link);
+   text-decoration: none;
+}
+
+.main {
+   margin: 3.75rem 25rem;
+}
+
+.main > h3 {
+   margin-top: 1.5rem;
+   font-size: 1.5rem;
+}
+
+.subheading {
+   margin: 1.25rem 0;
+}
+
+.grouped {
+   margin: 0 1.25rem;
+   line-height: 2; 
+}
+
+.last {
+   margin: 1.25rem 0;
+}
+
+.divider {
+  border: 0;
+  height: 2px;
+  background: var(--divider);
+  margin: 2.5rem 0;
+}
+
+.second {
+   margin-top: 5                                                    0px;
+}
